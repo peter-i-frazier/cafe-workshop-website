@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CAFE Workshop 2025 - Talk Abstracts</title>
+  <style>
+    body { font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; background: #f8f9fa; color: #333; }
+    .container { max-width: 900px; margin: 0 auto; padding: 2rem 1rem; }
+    h1 { text-align: center; color: #667eea; margin-bottom: 2rem; }
+    .speaker-list { margin-bottom: 2rem; }
+    .speaker-list a { display: block; margin: 0.5rem 0; color: #764ba2; text-decoration: none; }
+    .speaker-list a:hover { text-decoration: underline; }
+    .abstract { background: #fff; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); margin-bottom: 2rem; padding: 1.5rem; }
+    .abstract h2 { color: #667eea; margin-bottom: 0.5rem; }
+    .abstract .affiliation { font-style: italic; color: #666; margin-bottom: 1rem; }
+    .back-link { display: inline-block; margin-bottom: 2rem; color: #667eea; text-decoration: none; }
+    .back-link:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html#speakers" class="back-link">&larr; Back to Workshop Page</a>
+    <h1>Talk Abstracts</h1>
+    <div class="speaker-list">
+      <strong>Jump to:</strong>
+      <a href="#ament">Sebastian Ament (Meta)</a>
+      <a href="#chandrasekaran">Anand Chandrasekaran (Schrödinger)</a>
+      <a href="#elemento">Olivier Elemento (Weill Cornell Medicine)</a>
+      <a href="#gardner">Jake Gardner (University of Pennsylvania)</a>
+      <a href="#najafi">Saeed Najafi (Grove Biopharma)</a>
+      <a href="#tamasi-barker">Matthew Tamasi &amp; Matt Barker (Plexymer &amp; P&amp;G)</a>
+      <a href="#venkatasubramanian">Venkat Venkatasubramanian (Columbia University)</a>
+      <a href="#yue">Shuwen Yue (Cornell University)</a>
+    </div>
+
+    <div id="ament" class="abstract">
+      <h2>Sebastian Ament</h2>
+      <div class="affiliation">Meta</div>
+      <strong>Sustainable concrete via Bayesian optimization</strong>
+      <p>
+        Abstract coming soon.
+      </p>
+    </div>
+
+    <div id="chandrasekaran" class="abstract">
+      <h2>Anand Chandrasekaran</h2>
+      <div class="affiliation">Schrödinger</div>
+      <strong>Advancing formulation design with combined physics-based and machine learning approaches</strong>
+      <p>
+        Machine learning (ML) is transforming formulation design across pharmaceuticals, cosmetics, electronics, and consumer packaged goods by enabling data-driven predictions of critical properties such as solubility, viscosity, and stability, among others. Chemistry-informed AI and ML models provide a powerful framework for accelerating materials innovation, extending beyond active ingredients to complex multi-component formulations. The ability of machine learning to analyze large volumes of data and make predictions about novel formulations allows for the rapid exploration and screening of broad chemical spaces, significantly reducing reliance on traditional trial-and-error experimentation. Automated workflows and deep learning can integrate both chemical composition and molecular structure to build predictive models that optimize formulation properties with much greater speed and efficiency.
+      </p>
+
+      <p>
+        At the same time, Schrödinger’s physics-based modeling tools, including molecular dynamics (MD), density functional theory (DFT), and machine learning force fields, offer atomistic insights that connect molecular-level interactions with macroscopic properties. These tools help uncover causal relationships within hierarchical materials and multilayered systems such as OLED devices, and support the rational design of advanced formulations, composites, and device architectures.
+      </p>
+    </div>
+
+    <div id="elemento" class="abstract">
+      <h2>Olivier Elemento</h2>
+      <div class="affiliation">Weill Cornell Medicine</div>
+      <strong>Towards an AI blueprint for designing effective drug cocktails</strong>
+      <p>
+        Abstract coming soon.
+      </p>
+    </div>
+
+    <div id="gardner" class="abstract">
+      <h2>Jake Gardner</h2>
+      <div class="affiliation">University of Pennsylvania</div>
+      <strong>Extracting knowledge priors from scientific texts for de novo molecular design</strong>
+      <p>
+        AI-driven design within chemistry and biochemistry has become one of the most exciting areas of growth for the field. This success is enabled in part by a myriad of repositories that provide data on the structure, function, and activity for proteins, small molecules, and other entities of interest. However, despite this wealth of curated data, the majority of our knowledge of chemistry, biology, and medicine remains “locked” in natural-language text found in publications, patents, and other articles. In this talk, I'll discuss a large-scale effort we are undertaking to exploit the natural-language understanding capabilities of large language models to extract this knowledge directly from the scientific literature. I'll show how we can, leveraging tens of millions of facts about molecules and proteins extracted from the literature, achieve state-of-the-art performance--both supervised and zero-shot--on an enormous variety of molecule property prediction tasks, with even small 15 million parameter models leveraging our large dataset as pretraining outperforming much larger, 2B+ parameter models released by Google. We'll also show how these predictors can be incorporated into de novo molecular Bayesian optimization design pipelines as constraints, moving us towards constraining molecular design using knowledge extracted directly from the literature.
+      </p>
+    </div>
+
+    <div id="najafi" class="abstract">
+      <h2>Saeed Najafi</h2>
+      <div class="affiliation">Grove Biopharma</div>
+      <strong>Multi-objective AI-guided brush-like polymer–peptide design enables tunable peptide-based drug formulation optimization</strong>
+      <p>
+        Rapid advances in AI are reshaping peptide-based drug discovery by linking sequence and structure to developability traits such as solubility, aggregation, permeability, stability, and release kinetics. In this talk, I’ll give a concise, cross-disciplinary primer on the methods we use—protein language models and generative sequence design; structure-aware scoring (e.g., AlphaFold-based pipelines); physics-informed predictors; and multi-objective optimization with uncertainty and active-learning feedback—and outline where each class of model is most and least useful.
+      </p>
+
+      <p>
+I’ll then illustrate these ideas with peptide therapeutics and polymer–peptide conjugates (PLPs): brush-like scaffolds that display multiple peptide arms with tunable properties. Our workflow predicts aggregation, cell permeability, and uptake directly from sequence, integrates structural and biophysical filters, and performs composition optimization to balance potency with formulation performance.
+      </p>
+
+      <p>
+Case studies from the Alzheimer’s design space demonstrate how the approach generalizes across targets and modalities. Together, these tools provide a practical path to AI-guided multifunctional PLP design that is structurally robust, biologically active, and optimized for stability—all within a scalable and designable framework.
+      </p>
+    </div>
+
+    <div id="tamasi-barker" class="abstract">
+      <h2>Matthew Tamasi &amp; Matt Barker</h2>
+      <div class="affiliation">Plexymer &amp; Procter &amp; Gamble</div>
+      <strong>Accelerating innovation: The journey toward high-throughput methods &amp; models for tailored water-soluble polymers</strong>
+      <p>
+        Co-author: Erica Locke (Procter &amp; Gamble)
+      <p>
+        To remain competitive in a world characterized by rapidly changing consumer needs, regulatory requirements, and supply chain constraints, P&G requires faster methods for discovering new materials. Via partnership between Plexymer and P&G, our team is exploring opportunities across the innovation workflow to leverage high-throughput methods and advanced modeling techniques to accelerate polymer discovery. This poster will showcase the adoption of semi-automated high-throughput synthesis and characterization methods paired with sequential and explainable machine learning techniques to prepare, model, and learn from a model library of industrially relevant water-soluble polymer derivatives. 
+      </p>
+      <p>
+We will share insights from our journey and highlight how, using a limited library of fewer than 100 polymers, we built and validated explainable AI models across multiple layers of structure-property and process information. These models enabled us to deploy active machine learning strategies to target specific compositions with desired viscosities and thermogravimetric properties, as well as enhance model learning by targeting low-information polymer designs. As our models connected synthetic conditions to design information, targeted polymer designs could then be rapidly synthesized and characterized by this semi-automated high-throughput workflow. Additionally, application of explainable AI models to this system aided understanding of the key underlying structure-property relationships driving desired performance. This work lays the foundation for future efforts to rapidly develop water-soluble polymers tailored to excel in key areas of sustainability, performance, and cost. 
+      </p>
+    </div>
+
+    <div id="venkatasubramanian" class="abstract">
+      <h2>Venkat Venkatasubramanian</h2>
+      <div class="affiliation">Columbia University</div>
+      <strong>(Title TBA)</strong>
+      <p>
+        Abstract coming soon.
+      </p>
+    </div>
+
+    <div id="yue" class="abstract">
+      <h2>Shuwen Yue</h2>
+      <div class="affiliation">Cornell University</div>
+      <strong>Machine learning interatomic potentials for property prediction in complex liquids</strong>
+      <p>
+Designing advanced chemical formulations, whether for energy storage, coatings, or pharmaceuticals, requires accurate prediction of thermodynamic and dynamic properties across diverse liquid chemical and phase space. Molecular simulation can, in principle, provide these insights before costly experiments. However, representing interatomic interactions involves a persistent trade-off: empirical force fields lack the accuracy and transferability needed across a range of thermodynamic conditions, while quantum mechanical methods are prohibitively expensive for the length and time scales required to predict collective properties. Machine learning interatomic potentials (MLIPs) bridge this gap by combining first-principles accuracy with force-field efficiency. In this talk, I will provide an overview of this emerging area for complex liquids, along with our work developing such models for aqueous electrolytes as a prototype system. We apply these MLIPs to reveal how specific ions modulate solvation structure and dynamics, and how that leads to macroscopic changes in diffusion, interfacial ion selectivity, and dielectric relaxation. I will also discuss how these approaches generalize to other liquid systems to improve property prediction, physical interpretability, and targeted exploration of new chemical spaces
+      </p>
+    </div>
+  </div>
+</body>
+</html>
