@@ -28,10 +28,11 @@
       <a href="#chandrasekaran">Anand Chandrasekaran (Schrödinger)</a>
       <a href="#elemento">Olivier Elemento (Weill Cornell Medicine)</a>
       <a href="#gardner">Jake Gardner (University of Pennsylvania)</a>
+      <a href="#martiniani">Stefano Martiniani (New York University)</a>
       <a href="#najafi">Saeed Najafi (Grove Biopharma)</a>
       <a href="#tamasi-barker">Matthew Tamasi &amp; Matt Barker (Plexymer &amp; P&amp;G)</a>
       <a href="#venkatasubramanian">Venkat Venkatasubramanian (Columbia University)</a>
-      <a href="#yue">Shuwen Yue (Cornell University)</a>
+      <a href="#webb">Michael Webb (Princeton University)</a>
     </div>
 
     <div id="ament" class="abstract">
@@ -61,7 +62,7 @@
       <div class="affiliation">Weill Cornell Medicine</div>
       <strong>Towards an AI blueprint for designing effective drug cocktails</strong>
       <p>
-        Abstract coming soon.
+        Designing effective and safe multi-drug formulations is a critical bottleneck in therapeutic development. To address this, we have developed a comprehensive AI strategy that predicts both synergistic efficacy and adverse drug-drug interactions (DDIs). For efficacy, our PAIRWISE model employs a multimodal deep learning architecture that integrates drug chemical structures, known targets, and tumor-specific transcriptomes to predict personalized drug synergy. PAIRWISE has been successfully benchmarked against other models and its predictions for Bruton's Tyrosine Kinase inhibitor (BTKi) combinations have been validated in vitro in lymphoma cell lines. To address formulation safety, we created DDI-GPT, a novel framework that predicts DDIs by enhancing a Large Language Model (LLM) with a biomedical Knowledge Graph (KG). This model transforms complex KG relationships into structured "sentence trees" that are fed into a fine-tuned BioGPT-2 architecture. DDI-GPT achieved a state-of-the-art AUROC of 0.964 on the TwoSIDES benchmark dataset. More importantly, it demonstrates superior zero-shot prediction capability, attaining a 0.84 AUROC on a recently curated dataset of FDA-reported DDIs, a 14% improvement over prior methods. An explainability module pinpointed CYP3A-mediated mechanisms for predicted acalabrutinib DDIs, showcasing its utility for mechanistic discovery. Together, these AI-driven tools provide a powerful, technically advanced approach to accelerate the rational design of safe and effective combination therapies.
       </p>
     </div>
 
@@ -73,6 +74,16 @@
         AI-driven design within chemistry and biochemistry has become one of the most exciting areas of growth for the field. This success is enabled in part by a myriad of repositories that provide data on the structure, function, and activity for proteins, small molecules, and other entities of interest. However, despite this wealth of curated data, the majority of our knowledge of chemistry, biology, and medicine remains “locked” in natural-language text found in publications, patents, and other articles. In this talk, I'll discuss a large-scale effort we are undertaking to exploit the natural-language understanding capabilities of large language models to extract this knowledge directly from the scientific literature. I'll show how we can, leveraging tens of millions of facts about molecules and proteins extracted from the literature, achieve state-of-the-art performance--both supervised and zero-shot--on an enormous variety of molecule property prediction tasks, with even small 15 million parameter models leveraging our large dataset as pretraining outperforming much larger, 2B+ parameter models released by Google. We'll also show how these predictors can be incorporated into de novo molecular Bayesian optimization design pipelines as constraints, moving us towards constraining molecular design using knowledge extracted directly from the literature.
       </p>
     </div>
+
+    <div id="martiniani" class="abstract">
+    <h2>Stefano Martiniani</h2>
+      <div class="affiliation">New York University</div>
+      <strong>(Title TBA)</strong>
+      <p>
+        Abstract coming soon.
+      </p>
+    </div>
+
 
     <div id="najafi" class="abstract">
       <h2>Saeed Najafi</h2>
@@ -114,12 +125,12 @@ We will share insights from our journey and highlight how, using a limited libra
       </p>
     </div>
 
-    <div id="yue" class="abstract">
-      <h2>Shuwen Yue</h2>
-      <div class="affiliation">Cornell University</div>
-      <strong>Machine learning interatomic potentials for property prediction in complex liquids</strong>
+    <div id="webb" class="abstract">
+      <h2>Michael Webb</h2>
+      <div class="affiliation">Princeton University</div>
+      <strong>(Title TBA)</strong>
       <p>
-Designing advanced chemical formulations, whether for energy storage, coatings, or pharmaceuticals, requires accurate prediction of thermodynamic and dynamic properties across diverse liquid chemical and phase space. Molecular simulation can, in principle, provide these insights before costly experiments. However, representing interatomic interactions involves a persistent trade-off: empirical force fields lack the accuracy and transferability needed across a range of thermodynamic conditions, while quantum mechanical methods are prohibitively expensive for the length and time scales required to predict collective properties. Machine learning interatomic potentials (MLIPs) bridge this gap by combining first-principles accuracy with force-field efficiency. In this talk, I will provide an overview of this emerging area for complex liquids, along with our work developing such models for aqueous electrolytes as a prototype system. We apply these MLIPs to reveal how specific ions modulate solvation structure and dynamics, and how that leads to macroscopic changes in diffusion, interfacial ion selectivity, and dielectric relaxation. I will also discuss how these approaches generalize to other liquid systems to improve property prediction, physical interpretability, and targeted exploration of new chemical spaces
+        Abstract coming soon.
       </p>
     </div>
   </div>
