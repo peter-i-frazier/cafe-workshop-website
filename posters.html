@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CAFE Workshop 2025 - Accepted Posters</title>
+  <style>
+    body { font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; background: #f8f9fa; color: #333; }
+    .container { max-width: 900px; margin: 0 auto; padding: 2rem 1rem; }
+    h1 { text-align: center; color: #667eea; margin-bottom: 2rem; }
+    .poster-list { margin: 0 auto; max-width: 800px; }
+    .poster-item { background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); margin-bottom: 1.5rem; padding: 1.2rem 1.5rem; }
+    .poster-title { font-weight: bold; color: #764ba2; font-size: 1.08em; margin-bottom: 0.3em; }
+    .poster-authors { color: #555; margin-bottom: 0.2em; }
+    .poster-affiliation { font-style: italic; color: #888; font-size: 0.97em; margin-bottom: 0.5em; }
+    .poster-abstract-title { font-weight: bold; color: #333; margin-top: 0.7em; margin-bottom: 0.2em; font-size: 1em; }
+    .poster-abstract { color: #444; font-size: 0.98em; margin-bottom: 0.2em; }
+    @media (max-width: 600px) {
+      .container { padding: 1rem 0.2rem; }
+      .poster-item { padding: 1rem 0.7rem; }
+    }
+    .presenter { font-weight: bold; color: #222; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html#posters" class="back-link" style="display:inline-block; margin-bottom:2rem; color:#667eea; text-decoration:none;">&larr; Back to Workshop Page</a>
+    <h1>Posters</h1>
+    <div class="poster-list">
+
+      <div class="poster-item" id="robust-tlbo">
+        <div class="poster-title">Robust Transfer Learning Bayesian Optimisation</div>
+        <div class="poster-authors">
+          Gbetondji Dovonon, <span class="presenter">Jakob Zeitler</span>
+        </div>
+        <div class="poster-affiliation">University of Oxford</div>
+        <div class="poster-abstract-title">Abstract</div>
+        <div class="poster-abstract">
+          Learning from historical data has been shown to drastically reduce the number of experiments to maximise the yield of chemical reactions. (Felton, 2023) Transfer Learning Bayesian Optimisation (TLBO) facilitates such transfer of historical data from a source reactor a target reactor. Unfortunately, TLBO suffers from suboptimal performance when the historical data is in fact unreliable and misleading. We introduce robust Transfer Learning Bayesian Optimisation (rTLBO), a modification of TLBO that identifies unreliable acquisition states and recovers convergence performance lost otherwise. We integrate a technique previously used in robust Multi-fidelity Bayesian Optimisation (Mikkola, 2023) to control the quality of acquisitions into the acquisition function in TLBO. This allows us to reduce the influence of the unreliable source reactor. The technique relies on a threshold picked by the user which will be need to be based on heuristics.
+        </div>
+      </div>
+
+      <div class="poster-item" id="bayesian-protein">
+        <div class="poster-title">Bayesian Optimization of a Protein Complex Formulation for Enhanced Thermal Stability in Food Systems</div>
+        <div class="poster-authors">
+          Waritsara Khongkomolsakul, Poompol Buathong, Eunhye Yang, Younas Dadmohammadi, Yufeng Zhou, Peilong Li, Lixin Yang, Peter I Frazier, Alireza Abbaspourrad, <span class="presenter">Poompol Buathong</span>
+        </div>
+        <div class="poster-affiliation">Cornell University</div>
+        <div class="poster-abstract-title">Abstract</div>
+        <div class="poster-abstract">
+          Phytase (phyA) improves nutrient absorption by degrading phytate in plant-based and high-phytate foods but is quickly inactivated by heat and pepsin digestion. Chitosan complexation can provide protection, though optimizing parameters such as pH and enzyme–polymer ratio through traditional methods like grid search is labor-intensive. Here, we apply Bayesian optimization (BO) to efficiently identify optimal formulations. Using a dataset of 12 ratios at fixed pH 2.0, BO reached the optimum 43% faster than random search, cutting experimental effort nearly in half compared to grid search, which would require all 12 experiments. These findings demonstrate that BO enables efficient and robust design of phytase–chitosan complexes with enhanced thermal stability.
+        </div>
+      </div>
+
+      <div class="poster-item" id="generative-polymer">
+        <div class="poster-title">Generative active learning across polymer architectures and solvophobicities for targeted rheological behavior</div>
+        <div class="poster-authors">
+          Shengli Jiang, <span class="presenter">Shengli Jiang</span>, Michael A. Webb
+        </div>
+        <div class="poster-affiliation">Princeton University</div>
+        <div class="poster-abstract-title">Abstract</div>
+        <div class="poster-abstract">
+          Polymer-based solutions play critical roles in fields from enhanced oil recovery to food science, yet achieving precise control over their shear-dependent viscosity remains a long-standing challenge. This difficulty arises from the complex coupling of molecular chemistry, polymer architecture, and intermolecular interactions.
+
+          In this work, we present a data-driven and physics-guided framework for the inverse design of polymer solutions with prescribed shear-rate-dependent viscosity profiles. Our approach integrates a graph-based variational autoencoder (TopoGNN), active learning, and mesoscale simulations to efficiently navigate the large design space of polymer topology and solvophobicity. The framework reliably identifies polymers meeting low- and medium-difficulty viscosity targets, and for more challenging cases, it leverages polymer-physics scaling laws to extrapolate beyond the training domain. We also discover that distinct combinations of topology and solvophobicity can yield remarkably similar rheological responses, revealing a many-to-one mapping between structure and flow behavior.
+
+          Beyond practical design capability, we identify a universal physical descriptor—the effective polymer cross-sectional dimension perpendicular to flow—that governs shear viscosity irrespective of topology. This mechanistic insight, combined with our transferable methodology, offers a generalizable route to designing shear-sensitive fluids across energy, food, personal care, and advanced manufacturing sectors.
+        </div>
+      </div>
+
+      <div class="poster-item" id="minimizing-data">
+        <div class="poster-title">Minimizing Data Requirements for Material Property Prediction</div>
+        <div class="poster-authors">
+          Quinn M. Gallagher, Sonia Hasko, Michael A. Webb, <span class="presenter">Quinn Gallagher</span>
+        </div>
+        <div class="poster-affiliation">Princeton University</div>
+        <div class="poster-abstract-title">Abstract</div>
+        <div class="poster-abstract">
+          Design-build-test-learn strategies based on simulations and experiments are increasingly employed to accelerate materials discovery and characterization. However, these design campaigns are limited by the availability of time and resources, constraining the range of problems to which these strategies can be applied and the fidelity of the chosen simulation or experiment. Therefore, it is essential that maximally efficient experimental planning algorithms are employed to limit the time and resource usage of data-driven materials design strategies. Despite this, there is no consensus on how to most effectively employ experimental planning strategies for choosing experiments that maximize understanding of material structure-property relationships with limited data.
+
+          To address this gap, we compare the performance of data selection strategies for building machine learning models for material property prediction on 60 tasks sourced from literature. From these results, we find that cluster-based space-filling strategies select equally or more informative datasets than active learning methods. We show that, for the tasks considered, this result is robust to the dimensionality of the descriptors used to represent a given material. In attempting to understand training dataset quality, we find that measures of neither dataset representativeness nor redundancy are predictive of training dataset quality. Finally, we show that a single metric, the correlation class matching and instance distances, is capable of quantifying structure-property landscape complexity.
+
+          Overall, we provide a comprehensive survey of data-efficient experimental planning strategies, recommend best practices for future materials design campaigns, and suggest avenues for further study.
+        </div>
+      </div>
+
+      <div class="poster-item" id="scnp">
+        <div class="poster-title">Effect of Shear Flow and Precursor Design on Single-Chain Nanoparticle Formation</div>
+        <div class="poster-authors">
+          Matthew D. Chertok, Howard A. Stone, Michael A. Webb, <span class="presenter">Matthew Chertok</span>
+        </div>
+        <div class="poster-affiliation">Princeton University</div>
+        <div class="poster-abstract-title">Abstract</div>
+        <div class="poster-abstract">
+          Single-chain nanoparticles (SCNPs) are a class of self-interacting polymers with proposed applications in fields ranging from catalysis to biomedical imaging. Because their morphology dictates suitability for specific applications, strategies to tailor structural outcomes are of significant interest. Here, we examine how SCNP morphology depends on both precursor chain attributes, such as linker fraction and backbone stiffness, and imposed shear flow. Using coarse-grained molecular dynamics simulations, we generate an ensemble of structures from 10,800 unique SCNPs formed under either quiescent or shear conditions. We then apply unsupervised learning to construct a three-dimensional embedding space, enabling analysis of the relationships between precursor properties, flow conditions, and resulting morphologies. These findings provide guidelines for designing SCNPs with targeted characteristics and demonstrate the utility of machine learning for analyzing their formation across diverse conditions.
+        </div>
+      </div>
+
+      <div class="poster-item" id="metal-polymer">
+        <div class="poster-title">Bottom-Up Patterning of Transparent and Conductive Metal-Polymer Composite Hypersurfaces</div>
+        <div class="poster-authors">
+          Keidy L. Matos, Yerzhan Zholdassov, Milan A. Shlain, Antonio R. Cerullo, Mariama Barry, Rajinder S. Deol, Ioannis Kymissis, Adam B. Braunschweig, <span class="presenter">Keidy L. Matos</span>
+        </div>
+        <div class="poster-affiliation">CUNY Graduate Center</div>
+        <div class="poster-abstract-title">Abstract</div>
+        <div class="poster-abstract">
+          The challenge of fabricating transparent and conductive (T/C) films and patterns for applications in flexible electronics, touch screens, solar cells, and smart windows remains largely unsolved. Traditional fabrication techniques are complex, costly, time-consuming, and struggle to achieve the necessary precision and accuracy over electronic and optical properties. Here, hypersurface photolithography (HP), which integrates microfluidics, a digital micromirror device, and photochemical surface-initiated polymerizations, is used to create polymer brush patterns. The high-throughput optimization enabled by HP provides conditions to fabricate patterns composed of cross-linked polymer brushes containing Au-binding 2-vinylpyrrolidine (2VP) groups with precise control over the height and composition at each pixel, and also generates large experimental data sets that accelerate rapid optimization and formulation of new materials. Au nanoparticles (AuNPs) are incorporated into the polymer brush patterns through in situ reduction of Au ions, resulting in T/C composite AuNP/polymer brush patterns. The sheet resistance at 100 mA of a 2VP-AuNP-functionalized pattern on a glass substrate is 0.42 Ω • sq−1 with 86% transmittance of visible light. Additional patterns demonstrate multiplexing by copatterning rhodamine B functionalized fluorescent polymer brushes and AuNP/polymer brush conductive domains. This work solves the challenge of creating T/C films by forming metal–polymer composites from polymer brush patterns, offering a scalable solution for high throughput formulation of electronic and optical films.
+        </div>
+      </div>
+
+      <div class="poster-item" id="self-driving-labs">
+        <div class="poster-title">Democratizing Self-Driving Labs: Discovery of Lightweight Tough Structures Through an Accessible Automated 3D Printing Platform and Grey-Box Bayesian Optimization</div>
+        <div class="poster-authors">
+          Jiashuo Wang, Xin Wang, Raul Astudillo, Peter Frazier, Keith A. Brown, <span class="presenter">Jiashuo Wang</span>
+        </div>
+        <div class="poster-affiliation">Boston University</div>
+        <div class="poster-abstract-title">Abstract</div>
+        <div class="poster-abstract">
+          The development of polymeric structures that can absorb mechanical energy is critical for structural and protective applications such as aerospace and automotive engineering, yet optimizing these structures remains a challenge due to the complexity of their nonlinear mechanical response. In this work, we introduce a democratized self-driving lab (SDL) that integrates Bayesian Optimization (BO) with automated mechanical testing to accelerate the discovery of energy-absorbing materials. Our framework enables remote researchers to design and optimize structures in real time, submitting parameterized designs via a secure cloud-hosted database while leveraging an SDL for high-throughput experimentation. We implement a grey-box BO approach, where parameters are modeled using a multi-output Gaussian process (GP) to guide the search towards high-performance structures. Experimental results show that the proposed optimization framework identifies structures with specific energy absorption (Us) surpassing previous benchmarks, significantly reducing the number of required experiments compared to random search. By integrating secure network tunneling, we establish seamless connectivity between computational and experimental resources across institutions, ensuring robust and scalable access to AI-driven materials discovery. This study demonstrates the feasibility of a remotely accessible AI-driven experimental platform, paving the way for fully autonomous materials research. The proposed framework can be extended to other domains, such as multi-material composites, biomaterials, and energy storage, offering a scalable and collaborative model for AI-driven scientific discovery.
+        </div>
+      </div>
+
+      <div class="poster-item" id="disordered-proteins">
+        <div class="poster-title">Generative Design of Disordered Proteins Across Simulation Models</div>
+        <div class="poster-authors">
+          Zachary G. Lipel, Wesley Oliver, Michael A. Webb, <span class="presenter">Zachary Lipel</span>
+        </div>
+        <div class="poster-affiliation">Princeton University</div>
+        <div class="poster-abstract-title">Abstract</div>
+        <div class="poster-abstract">
+          Designing protein-based materials requires navigating a vast chemical space of sequences with complex and often non-intuitive structure–function relationships. This challenge is amplified for intrinsically disordered proteins (IDPs), which lack a fixed three-dimensional structure. IDPs are key drivers of biomolecular phase separation, a process essential for cellular organization and function, including signaling, ribosome assembly, and RNA processing. Because IDPs do not adopt stable folded structures, understanding how their sequence encodes function requires alternative approaches. Despite their biological significance, the relationship between amino acid sequence and phase separation propensity remains poorly understood. Gaining this understanding would enable us to engineer IDPs with tailored phase behavior and transport properties for use in biomaterials and drug delivery.
+
+          Experimental approaches can probe phase behavior for individual sequences, but are limited in throughput and spatiotemporal resolution. Coarse-grained (CG) molecular simulations offer a scalable alternative, enabling high-throughput interrogation of the sequence–property landscape. However, existing CG models differ in how they parameterize residue interactions, often resulting in discrepancies in predicted thermodynamic and transport properties, which complicates efforts to identify robust, generalizable design rules. Moreover, the combinatorial size of sequence space for biologically relevant sequence lengths of tens to hundreds of residues motivates AI-guided approaches for efficient exploration when using high-throughput methods.
+
+          In this work, we present a machine learning–driven framework to accelerate IDP sequence design by coupling Bayesian optimization with high-throughput CG simulations. Our pipeline explores trade-offs between diffusivity (a proxy for dynamics) and expenditure density (a proxy for phase separation), identifying optimized sequences across multiple CG models. Because these properties are typically anticorrelated, optimizing them simultaneously allows us to chart the frontier of achievable sequences and assess model expressivity by comparing the physicochemical properties revealed through each active learning campaign.
+
+          This comparative strategy highlights how model-specific biases shape learned sequence–property relationships and define the boundaries of attainable performance. More broadly, it provides a generalizable testbed for evaluating cross-model transferability and accelerating formulation-like design challenges in soft and biological materials.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
